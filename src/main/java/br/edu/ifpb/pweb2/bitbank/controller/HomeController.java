@@ -8,7 +8,9 @@ public class HomeController {
 
     @RequestMapping("/home")
     public String showHomepage() {
+        //Indico que página html (dentro de templates) será retornada
         return "index";
+        // return "protegido";
     }
 
 }
